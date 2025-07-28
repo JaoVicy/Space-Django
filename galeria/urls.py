@@ -3,5 +3,5 @@ from galeria.views import index
 
 
 url_patterns = [
-    
+    path('', index),
 ]
